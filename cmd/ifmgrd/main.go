@@ -62,7 +62,7 @@ var capabilities string
 var configdsocket string
 
 func sigstartprof() {
-	sigch := make(chan os.Signal)
+	sigch := make(chan os.Signal, 1)
 	signal.Notify(sigch, syscall.SIGUSR1)
 	for {
 		<-sigch
