@@ -1,5 +1,5 @@
 scripts/ifmgrctl-add-hook /usr/sbin
-udev/*.rules /lib/udev/rules.d
+udev/*.rules /usr/lib/udev/rules.d
 usr/bin/ifmgrctl
 usr/bin/ifmgrd /usr/sbin
 usr/bin/qa-notify

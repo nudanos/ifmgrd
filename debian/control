@@ -1,8 +1,7 @@
 Source: golang-github-danos-ifmgrd
 Section: admin
-Maintainer: Vyatta Package Maintainers <DL-vyatta-help@att.com>
-Build-Depends:
- debhelper (>= 9.20160709),
+Maintainer: NuDanOS Maintainers <jon@fernandez.tech>
+Build-Depends: debhelper-compat (= 13),
  dh-golang (>= 1.18),
  dh-vci,
  dh-yang,
@@ -17,12 +16,14 @@ Build-Depends:
  golang-github-danos-vci-dev,
  golang-github-danos-yang-dev,
  libaudit-dev
-Standards-Version: 3.9.6
+Standards-Version: 4.7.2
+Rules-Requires-Root: no
+Vcs-Git: https://github.com/nudanos/ifmgrd.git
+Vcs-Browser: https://github.com/nudanos/ifmgrd
 
 Package: ifmgrd
 Architecture: any
-Priority: extra
-Depends:
+Depends: 
  lu,
  vyatta-ifmgr-v1-yang,
  vyatta-op-qa-notify-v1-yang,
@@ -35,13 +36,11 @@ Description: Interface Manager daemon
 Package: vyatta-ifmgr-v1-yang
 Architecture: all
 Section: admin
-Priority: optional
 Description: Interface Manager yang definitions
  The YANG module for vyatta-ifmgr-v1
 
 Package: vyatta-op-qa-notify-v1-yang
 Architecture: all
 Section: admin
-Priority: optional
 Description: Interface Manager operational yang
  Interface Manager operational command definitions
