@@ -1,0 +1,15 @@
+usr/share/gocode/src/github.com/danos/ifmgrd/client.go
+usr/share/gocode/src/github.com/danos/ifmgrd/cmd/ifmgrctl/main.go
+usr/share/gocode/src/github.com/danos/ifmgrd/cmd/ifmgrd/main.go
+usr/share/gocode/src/github.com/danos/ifmgrd/cmd/qa-notify/main.go
+usr/share/gocode/src/github.com/danos/ifmgrd/cmd/qa-notify/qa_notify_test.go
+usr/share/gocode/src/github.com/danos/ifmgrd/commit_pool.go
+usr/share/gocode/src/github.com/danos/ifmgrd/committer.go
+usr/share/gocode/src/github.com/danos/ifmgrd/conn.go
+usr/share/gocode/src/github.com/danos/ifmgrd/dispatcher.go
+usr/share/gocode/src/github.com/danos/ifmgrd/ifmgrd.go
+usr/share/gocode/src/github.com/danos/ifmgrd/intf_manager.go
+usr/share/gocode/src/github.com/danos/ifmgrd/intf_state_machine.go
+usr/share/gocode/src/github.com/danos/ifmgrd/rpc.go
+usr/share/gocode/src/github.com/danos/ifmgrd/server.go
+usr/share/gocode/src/github.com/danos/ifmgrd/session.go
