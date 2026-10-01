@@ -40,5 +40,5 @@ vet:
 
 override_dh_installsystemd:
 	dh_installsystemd --name=ifmgrd
-	dh_installsystemd --name=ifmgrctl-hook
+	dh_installsystemd --name=ifmgrctl-hook --no-start
 
